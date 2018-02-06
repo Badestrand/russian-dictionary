@@ -2,7 +2,7 @@
 
 These CSV files contain the dictionary data from the dictionary website https://en.openrussian.org. The origin are various sources including Wiktionary and lots of corrections and additions by users.
 
-The data is far from perfect but also not completely rubbish. There might also be some artefacts and a bit of dirtyness like an asterisk or slash where it shouldn't be. If you have any improvements, please try to make them on the website directly and if not possible or if there are structural deficits please open an issue.
+The data is far from perfect but also not completely rubbish. There might be some artefacts and a bit of dirtyness like an asterisk or slash where it shouldn't be. If you have any improvements, please try to make them on the website directly and if not possible or if there are structural deficits please open an issue.
 
 You can use the data quite freely, see the LICENSE file (Creative Commons Attribution Share Alike 4.0).
 
@@ -10,16 +10,22 @@ You can use the data quite freely, see the LICENSE file (Creative Commons Attrib
 
 On the website you can download a snapshot of the actual database at https://en.openrussian.org/dictionary. However, those are not as accessible and have a complex format in parts. Thus these CSVs. The snapshots here are automated by hand so if you need a very recent one please open an issue and I will do the export.
 
-### adjectives.csv
+### The files
 
-| Field | Description |
+UTF-8 format with fields separated by a tab. First row is the header as usual in CSVs. The first columns are equal in all files:
+
+| Column | Description |
 |---|---|
 | bare | The russian word without an accent sign |
 | accented | If available and it makes sense to display the accent, this field contains the word including the accent, indicated by an apostroph, e.g. `кото'рый` |
-| position | For some words there are several entries, e.g. for `украинский` there exists a noun (the Ukrainian person) as well as an adjective (ukrainian). This field denotes the order of those entries. Has weak confidence only, is mostly random |
 | translations_en | English translations for this entry. Main meaning differences are separated by semicolon (;) and synonyms by comma (,) |
 | translations_de | Same as english translation but german |
-| incomparable | If this field is 1 it means the adjective can not be used for comparisons, but currently not used. |
+
+### adjectives.csv
+
+| Column | Description |
+|---|---|
+| (4 columns skipped, see above) | (4 columns skipped, see above) |
 | comparative | Accented comparative form for the adjective, e.g. `нове'е` for `новый`. Might contain several entries separated by semicolons, e.g. `бо'льше;бо'льший` for `большой`, which means that there are several comparative forms in use |
 | superlative | Accented superlative form for the adjective, e.g. `нове'йший` for `новый`. Might contain several entries separated by semicolons, e.g. `лу'чший;наилу'чший` for `хороший`, which means that there are several superlative forms in use |
 | short_m | Accented male short form, e.g. `вели'к` for `большой`, might contain several forms separated by a semicolon |
@@ -50,3 +56,28 @@ On the website you can download a snapshot of the actual database at https://en.
 | decl_pl_acc | Accented declension form plural accusative, e.g. `больши'х,больши'е` for `большой`, might contain several forms separated by a semicolon |
 | decl_pl_inst | Accented declension form plural instrumental, e.g. `больши'ми` for `большой`, might contain several forms separated by a semicolon |
 | decl_pl_prep| Accented declension form plural prepositional, e.g. `больши'х` for `большой`, might contain several forms separated by a semicolon |
+
+
+### nouns.csv
+
+| Column | Description |
+|---|---|
+| (4 columns skipped, see above) | (4 columns skipped, see above) |
+| gender | 'f', 'm', 'n' or empty if unknown |
+| partner | The other-gender word, e.g. `богиня` for `бог`, not accented |
+| animate | '0' if the noun denotes an inanimate thing, '1' for a living thing and empty if unknown |
+| indeclinable | '1' if the noun is not flexed, e.g. `тахи` |
+| sg_only | '1' if there is only a singular and no plural form, e.g. for `воздух` |
+| pl_only | '1' if there is only a plural and no singular form, e.g. for `деньги` |
+| sg_nom | Accented declension form singular nominative, e.g. `вре'мя` for `время`, might contain several forms separated by a semicolon |
+| sg_gen | Accented declension form singular genitive, e.g. `вре'мени` for `время`, might contain several forms separated by a semicolon |
+| sg_dat | Accented declension form singular dative, e.g. `вре'мени` for `время`, might contain several forms separated by a semicolon |
+| sg_acc | Accented declension form singular accusative, e.g. `вре'мя` for `время`, might contain several forms separated by a semicolon |
+| sg_inst | Accented declension form singular instrumental, e.g. `вре'менем` for `время`, might contain several forms separated by a semicolon |
+| sg_prep | Accented declension form singular prepositive, e.g. `вре'мени` for `время`, might contain several forms separated by a semicolon |
+| pl_nom | Accented declension form plural nominative, e.g. `времена'` for `время`, might contain several forms separated by a semicolon |
+| pl_gen | Accented declension form plural genitive, e.g. `времён` for `время`, might contain several forms separated by a semicolon |
+| pl_dat | Accented declension form plural dative, e.g. `времена'м` for `время`, might contain several forms separated by a semicolon |
+| pl_acc | Accented declension form plural accusative, e.g. `времена'` for `время`, might contain several forms separated by a semicolon |
+| pl_inst | Accented declension form plural instrumental, e.g. `времена'ми` for `время`, might contain several forms separated by a semicolon |
+| pl_prep | Accented declension form plural prepositive, e.g. `времена'х` for `время`, might contain several forms separated by a semicolon |
