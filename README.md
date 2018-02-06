@@ -6,9 +6,11 @@ The data is far from perfect but also not completely rubbish. There might be som
 
 You can use the data quite freely, see the LICENSE file (Creative Commons Attribution Share Alike 4.0).
 
+
 ## About the CSVs
 
 On the website you can download a snapshot of the actual database at https://en.openrussian.org/dictionary. However, those are not as accessible and have a complex format in parts. Thus these CSVs. The snapshots here are automated by hand so if you need a very recent one please open an issue and I will do the export.
+
 
 ### The files
 
@@ -20,6 +22,7 @@ UTF-8 format with fields separated by a tab. First row is the header as usual in
 | accented | If available and it makes sense to display the accent, this field contains the word including the accent, indicated by an apostroph, e.g. `кото'рый` |
 | translations_en | English translations for this entry. Main meaning differences are separated by semicolon (;) and synonyms by comma (,) |
 | translations_de | Same as english translation but german |
+
 
 ### adjectives.csv
 
@@ -81,3 +84,34 @@ UTF-8 format with fields separated by a tab. First row is the header as usual in
 | pl_acc | Accented declension form plural accusative, e.g. `времена'` for `время`, might contain several forms separated by a semicolon |
 | pl_inst | Accented declension form plural instrumental, e.g. `времена'ми` for `время`, might contain several forms separated by a semicolon |
 | pl_prep | Accented declension form plural prepositive, e.g. `времена'х` for `время`, might contain several forms separated by a semicolon |
+
+
+### others.csv
+
+| Column | Description |
+|---|---|
+| (4 columns skipped, see above) | (4 columns skipped, see above) |
+
+ - no other columns -
+
+
+### verbs.csv
+
+| Column | Description |
+|---|---|
+| (4 columns skipped, see above) | (4 columns skipped, see above) |
+| aspect | 'perfective', 'imperfective' or blank if unknown |
+| partner | For perfective words the imperfective partner and vice versa, e.g. `говорить` for `сказать`, might contain several forms separated by a semicolon |
+| imperative_sg | Accented singular imperative form, e.g. `скажи'` for `сказать`, might contain several forms separated by a semicolon |
+| imperative_pl | Accented plural imperative form, e.g. `скажи'те` for `сказать`, might contain several forms separated by a semicolon |
+| past_m | Accented singular male past form, e.g. `сказа'л` for `сказать`, might contain several forms separated by a semicolon |
+| past_f | Accented singular female past form, e.g. `сказа'ла` for `сказать`, might contain several forms separated by a semicolon |
+| past_n | Accented singular neutral past form, e.g. `сказа'ло` for `сказать`, might contain several forms separated by a semicolon |
+| past_pl | Accented plural past form, e.g. `сказа'ли` for `сказать`, might contain several forms separated by a semicolon |
+| presfut_sg1 | Accented first person singular form of the present of future, depending on the word's aspect, e.g. `скажу'` for `сказать`, might contain several forms separated by a semicolon |
+| presfut_sg2 | Accented second person singular form of the present of future, depending on the word's aspect, e.g. `ска'жешь` for `сказать`, might contain several forms separated by a semicolon |
+| presfut_sg3 | Accented third person singular form of the present of future, depending on the word's aspect, e.g. `ска'жет` for `сказать`, might contain several forms separated by a semicolon |
+| presfut_pl1 | Accented first person plural form of the present of future, depending on the word's aspect, e.g. `ска'жем` for `сказать`, might contain several forms separated by a semicolon |
+| presfut_pl2 | Accented second person plural form of the present of future, depending on the word's aspect, e.g. `ска'жете` for `сказать`, might contain several forms separated by a semicolon |
+| presfut_pl3 | Accented third person plural form of the present of future, depending on the word's aspect, e.g. `ска'жут` for `сказать`, might contain several forms separated by a semicolon |
+
