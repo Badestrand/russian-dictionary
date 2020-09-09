@@ -55,7 +55,7 @@ bare	accented	translations_en	translations_de
 при	при	at; in the presence of; in the time of; with; (circumstantial)	an, bei, in Gegenwart während, in Anwesenheit, vor, zur Zeit, unter, in
 надо	на'до	it is necessary; need	müssen, sollen; nötig sein, benötigen (brauchen); über
 без	без	without; to (time)	ohne
-теперь	тепе'рь	now, nowadays, today	jetzt, nun, gegenwärtig
+теперь	тепе'рь	now, nowadays, today	nun (in diesem Augenblick); jetzt (gegenwärtig)
 сейчас	сейча'с	now; soon; at once	jetzt, gerade, momentan, im Moment; sofort, augenblicklich
 тоже	то'же	also, as well, too	auch, ebenfalls
 после	по'сле	after, afterwards, later	nach, danach, hinterher
@@ -82,7 +82,7 @@ bare	accented	translations_en	translations_de
 всегда	всегда'	always	immer
 куда	куда'	wherever	wohin
 сразу	сра'зу	immediately	sofort, augenblicklich, gleich, gleichzeitig, zugleich, auf einmal
-совсем	совсе'м	completely; at all	ganz, gänzlich, völlig, für immer
+совсем	совсе'м	completely; at all	ganz (ganz und gar), gänzlich, für immer; völlig
 почти	почти'	almost, nearly	fast, beinahe
 снова	сно'ва	again	wieder, erneut, abermals, von neuem, aufs neue
 между	ме'жду	between	zwischen, unter
@@ -277,7 +277,7 @@ bare	accented	translations_en	translations_de
 приятно	прия'тно	it is pleasant, it is nice, pleasantly, agreeably	angenehm
 серьёзно	серьёзно	seriously, earnestly, in earnest	ernst, ernstlich, im Ernst, in der Tat
 вряд	вряд	unlikely	schwerlich, kaum
-навсегда	навсегда'	for ever, for good	für immer
+навсегда	навсегда'	for ever, for good	für immer; auf immer
 тотчас	то'тчас	immediately, at once, instantly	sofort, sogleich; auf der Stelle
 спустя	спустя'	after, later	nach; später
 обо	обо	about (used only with first person prepositional case pronoun)	gegen; über
@@ -417,7 +417,7 @@ bare	accented	translations_en	translations_de
 скучно	ску'чно	boringly, tediously	langweilig, es ist langweilig
 фактически	факти'чески	practically, actually, in fact, virtually	siehe фактический
 передо	пе'редо		vor
-следовательно	сле'довательно	consequently, therefore, hence	also, folglich
+следовательно	сле'довательно	consequently, therefore, hence	folglich; somit  (also / demnach / infolgedessen)
 искренне	и'скренне	sincerely	aufrichtig, innig
 издали	и'здали	from a distance	von weitem, aus der Ferne
 мысленно	мы'сленно	mentally	mental; begrifflich
@@ -1422,7 +1422,7 @@ bare	accented	translations_en	translations_de
 настрого	на'строго	strictly	streng
 ошалело	ошалело		verrückt, irre
 мудрено	мудрено	ingeniously, subtly	knifflig, raffiniert, ausgeklügelt, scharfsinnig, schlau
-невдомёк	невдомёк		nicht wissen, nicht ahnen
+невдомёк	невдомёк	unaware	nicht wissen, nicht ahnen
 примитивно	примити'вно		primitiv
 единодушно	единоду'шно	unanimously, by common consent, as one man	einhellig, einmütig
 сладостно	сладостно		wonnig, süß
@@ -2017,7 +2017,7 @@ bare	accented	translations_en	translations_de
 себе	себе'		sich, mir, uns, dir, euch
 вообще-то	вообще'-то	actually	eigentlich
 по-русски	по-ру'сски	in Russian, Russian	russisch, Russisch, auf russisch, in russisch
-наряду	наряду'		neben, mit
+наряду	наряду'	alongside	neben, mit
 эх	эх	eh, oh	ach, oh
 чуть-чуть	чуть-чу'ть	extremely a little bit	ein (klein) wenig
 совместно	совме'стно	in common, jointly, in conference	gemeinsam, zusammen
