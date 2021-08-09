@@ -9,7 +9,7 @@ You can use the data quite freely, see the LICENSE file (Creative Commons Attrib
 
 ## Accessing & downloading the dictionary data
 
-We publish the dictionary database via [TogetherDB](https://togetherdb.com) and you can find the database [here](https://app.togetherdb.com/db/o9puugtgtauo1ih5/russian3/words). You can browse the database tables, sort, filter etc and use the "export" button to download them as CSV. The tables and columns themselves should be quite self explanatory.
+We publish the dictionary database via [TogetherDB](https://togetherdb.com) and you can find the database **>>>> [here](https://app.togetherdb.com/db/o9puugtgtauo1ih5/russian3/words) <<<<**. You can browse the database tables, sort, filter etc and use the "export" button to download them as CSV. The tables and columns themselves should be quite self explanatory.
 
 The database structure will change slightly from time to time as we are refactoring, adding or removing things from time to time.
 
@@ -21,4 +21,4 @@ The sentences are currently all from the incredible [Tatoeba project](https://ta
 
 ## About the CSV files
 
-You can find the CSVs for download here but these are a bit outdated as you can see from the timestamps. We will keep them here though as a public backup.
+You can find the CSVs for download here but they are a bit outdated as you can see from the timestamps. We will keep them here though as a public backup.
